@@ -37,7 +37,7 @@ for i in range(len(data1)):
 
 
 
-def gochi(given):
+def maxprofit(given):
     count=0
     profit=0
     for j in data1:
@@ -49,6 +49,6 @@ def gochi(given):
     return profit,given
 
 x = int(input("Enter the no of hours:"))
-profit,remain=gochi(x)
+profit,remain=maxprofit(x)
 print("The max profit is " + str(profit))
 print("Remaining hours are " + str(remain))
