@@ -31,4 +31,17 @@ def search():
 			break
 		
 n=0
-print("1.Add contact\n2.Delete contact\n3."
+print("1.Add a contact\n2.Delete a contact\n3.Update a contact\n4.Search a particular contact\n5.Exit")
+while n!=5 :
+	n = int(input("Enter a choice:"))
+	if n==1:
+		addcont()
+	elif n==2:
+		delete()
+	elif n==3:
+		update()
+	elif n==4:
+		search()
+	elif n==5:
+		break
+
